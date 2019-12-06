@@ -18,7 +18,7 @@ def line(line)
 end
 
 def take_a_number (line, person)
-  puts "Welcome, #{person}. You are number #{line.size +1} in line."
+  puts "Welcome, #{person}. You are number #{line.size + 1} in line."
   line << person
 end
 
